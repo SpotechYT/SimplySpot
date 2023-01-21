@@ -1,9 +1,9 @@
 // Username displayed in greeting.
-var userName = "Faizan";
+var userName = "Spot";
 
 // Default Searchengine
 // Available: Google DuckDuckGo Bing Yahoo
-var searchEngine = "Yahoo";
+var searchEngine = "Google";
 
 // Cards
 var cards = [

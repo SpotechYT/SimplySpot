@@ -8,13 +8,13 @@
     <!-- GetStarted - A simple responsive Startpage
         Author: MrAlpha786  (github.con/MrAlpha786) -->
 
-    <title>GetStarted</title>
+    <title>SimplySpot</title>
 
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <h1>Hi, <span id="username" onclick="toggleMode()"></span></h1>
+      <h1>Hello There, <span id="username" onclick="toggleMode()"></span></h1>
 
       <div id="search">
       <input id="search-field" type="text"/>
@@ -37,11 +37,20 @@
       	  <div class="content" data-tab="tab-4"></div>
       	</div>
       </div>
-
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(149, 121, 13,0.7)" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(149, 121, 13,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(226,183,20,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(226,183,20,0.7)" />
+          </g>
+        </svg>
     </div>
-
     <script src="config.js"></script>
     <script src="main.js"></script>
-
   </body>
 </html>
